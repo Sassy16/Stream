@@ -11,4 +11,5 @@ In this exercise we will implement the Stream class.
     - On the other hand, the method "apply" expects a operating function that returns a value and therfor it returns a new Stream.
  - The method "stop" will immediately stop the thread and will stop all the linked Stream objects.
 
-This technique will
+This technique will allow us to define all the work stations even before data will arrive, to stream information and each of the work stations will work in parallel with the others, as the output of one is the input of the next one.
+The user will be able to define the work in the form of fluent programming and use lambda expressions.
